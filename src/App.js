@@ -4,7 +4,7 @@ import Quiz from './containers/quiz/quiz'
 
 import {Route, Switch} from 'react-router-dom'
 import QuizList from './containers/QuizList/QuizList'
-import Auth from './containers/QuizCreator/QuizCreator'
+import Auth from './containers/Auth/Auth'
 import QuizCreator from './containers/QuizCreator/QuizCreator'
 
 
