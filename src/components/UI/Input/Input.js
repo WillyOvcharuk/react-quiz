@@ -27,7 +27,7 @@ const Input = props => {
             />
         {
             isInvalid(props)
-                ? <span>{props.errorMessage || 'fill the inputs'}</span>
+                ? <span>{props.errorMessage || 'field should not be empty'}</span>
                 : null
         }
         
