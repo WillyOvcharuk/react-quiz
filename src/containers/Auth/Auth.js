@@ -47,7 +47,7 @@ export default class Auth extends Component {
             returnSecureToken: true
         }
         try{
-            const response = await axios.post('https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyCqS-nBVhmN7o95wuvJSSA8hTts3aR9CF4', authData)
+            const response = await axios.post('https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key       AIzaSyCqS-nBVhmN7o95wuvJSSA8hTts3aR9CF4', authData)
             console.log(response.data)
         } catch (e) {
             console.log(e)
